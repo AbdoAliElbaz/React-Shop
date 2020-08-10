@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+COLOR PALETTE
+
+#FF6347 - (Tomato)
+#989898 - (Spanish Grey) - Text Color
+#F5F9F8 - (White Smoke) - Background Color
+
+
+[Table of Contents]
+
+
+1. Breadcrumbs
+2. Contact Us
+
+
+
+
+
+/***********
+1. BreadCrumbs
+***********/
+
+.breadcrumbs {
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 79px;
+    height: 60px;
+}
+
+.breadcrumbs a, .breadcrumbs a:hover {
+    color: #51545f;
+    font-size: 14px;
+}
+
+.breadcrumbs a:active, .active {
+    color: #b9b4c7;
+}
+
+/***********
+2. contact
+***********/
+
+.contact {
+    margin-top: 50px;
+}
+
+.contact-contents {
+    padding-right: 30px;
+}
+
+.contact-contents p, .get-in-touch-contents p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    color: #51545f;
+    margin-top: 22px;
+
+}
+
+.contact-contents div:first-of-type , .contact-contents div {
+    margin-top: 15px;
+}
+
+
+.social li {
+    margin-right: 12px;
+}
+
+.social li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+.get-in-touch-contents p {
+    margin-bottom: 20px;
+}
+
+.get-in-touch-contents .input_name {
+    margin-bottom: 19px;
+    margin-top: 31px;
+}
+
+.get-in-touch-contents .form_input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: solid 1px #e5e5e5;
+    padding-left: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.get-in-touch-contents .input_message {
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+textarea {
+    border: solid 1px #e5e5e5;
+    padding-left: 20px;
+    padding-top: 15px;
+    overflow: auto;
+    resize: vertical;
+}
+
+.get-in-touch-contents .message_submit_btn {
+    background: #1e1e27;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 165px;
+    border: none;
+    height: 46px;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 575px) {
+
+
+    .contact_col {
+        border-bottom: 1px solid  #b9b4c7;
+        margin-bottom: 20px;
+    }
+
+    .contact-contents p, .get-in-touch-contents p {
+      
+        margin-top: 15px;
+    
+    }
+
+    .follow_us_contents {
+        margin: 20px 0;
+        font-size: 15px;
+    }
+    .follow_us_contents h1{
+        font-size: 30px;
+        float: left;
+        padding-right: 15px;
+    }
+    .social li a {
+        height: 30px;
+        width: 30px ;
+    }
+
+    .social {
+        padding-top : 3px ; 
+    }
+
+}

@@ -1,0 +1,75 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Fujifilm X100T 16 MP Digital Camera (Silver)",
+            "img": "images/product_1.png",
+            "price": "22",
+            "discout": 222
+        },
+        {
+            "id": 2,
+            "name": "Samsung CF591 Series Curved 27-Inch FHD Monitor",
+            "img": "images/product_2.png",
+            "price": "50",
+            "discout": 222
+        },
+        {
+            "id": 3,
+            "name": "Blue Yeti USB Microphone Blackout Edition",
+            "img": "images/product_3.png",
+            "price": "22",
+            "discout": 222
+        },
+        {
+            "id": 4,
+            "name": "DYMO LabelWriter 450 Turbo Thermal Label Printer",
+            "img": "images/product_4.png",
+            "price": "22",
+            "discout": 222
+        },
+        {
+            "id": 5,
+            "name": "Pryma Headphones, Rose Gold & Grey",
+            "img": "images/product_5.png",
+            "price": "22",
+            "discout": 222
+        },
+        {
+            "id": 6,
+            "name": "Fujifilm X100T 16 MP Digital Camera (Silver)",
+            "img": "images/product_6.png",
+            "price": "22",
+            "discout": 222
+        },
+        {
+            "id": 7,
+            "name": "Samsung CF591 Series Curved 27-Inch FHD Monitor",
+            "img": "images/product_7.png",
+            "price": "22",
+            "discout": 222
+        },
+        {
+            "id": 8,
+            "name": "Blue Yeti USB Microphone Blackout Edition",
+            "img": "images/product_8.png",
+            "price": "22",
+            "discout": 222
+        },
+        {
+            "id": 9,
+            "name": "DYMO LabelWriter 450 Turbo Thermal Label Printer",
+            "img": "images/product_9.png",
+            "price": "22",
+            "discout": 222
+        },
+        {
+            "id": 10,
+            "name": "Pryma Headphones, Rose Gold & Grey",
+            "img": "images/product_10.png",
+            "price": "22",
+            "discout": 222
+        }
+       
+    ]
+}
